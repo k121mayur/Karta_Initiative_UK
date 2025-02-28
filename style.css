@@ -6,6 +6,9 @@
 .pt-150{
     padding-top: 150px;
 }
+.pl-60{
+    padding-left: 60px;
+}
 .fs-15{
     font-size: 15px;
 }
@@ -24,7 +27,7 @@
     padding: 0 100px;
 }
 .menu-head a{
-    color: #fff;
+    color: #fff!important;
     font-size: 18px;
     margin: 0 10px;
 }
@@ -35,7 +38,7 @@
     border-bottom-right-radius: 80px;
     width: 100%;
     height: 500px;
-    /* background-position: center; */
+    background-position: center;
     background-size: cover;
 }
 .hero-content{
@@ -76,7 +79,7 @@
     font-size: 20px;
     color: #fff;
     padding: 5px 50px 5px 30px;
-    border-top-right-radius: 20px;
+    border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
 .about-content p{
@@ -308,7 +311,7 @@ border-radius: 0px 0px 70px 70px;
     font-weight: 500;
 }
 .font-w-7{
-    font-weight: 700;
+    font-weight: 900;
 }
 .trustee .profile-img{
     text-align: center;
@@ -327,7 +330,7 @@ border-radius: 0px 0px 70px 70px;
 }
 .bar-line{
     background: #116211;
-    width: 10px !important;
+    width: 5px !important;
 }
 .social-media img{
     width: 40px;
@@ -352,4 +355,146 @@ border-radius: 0px 0px 70px 70px;
 }
 .karta-fund img{
     height: 350px;
+}
+.plan-img-h{
+    height: 450px;
+}
+.about-img {
+    border-radius: 50px;
+    
+    background-color:#1F391F;
+    padding: 20px;
+}
+.about-img img{
+    height: 450px;
+}
+.text-r{
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 17px;
+    }
+    h4{
+        font-size: 16px;
+
+    }
+    h5{
+        font-size: 15px;
+
+    }
+    p{
+        font-size: 14px;
+    }
+    li{
+        font-size: 13px;
+    }
+    .hero-content h3 {
+        font-size: 20px;
+    }
+    .bg-green{
+        margin: 10px 15px;
+    }
+    .logo{
+        width: 170px;
+    }
+    .rounded-shape-3{
+        width: 80%;
+    }
+    .rounded-shape-4{
+        width: 100%;
+    }
+    .programs{
+        padding: 0;
+    }
+    .karta-fund img {
+        height: 180px;
+    }
+    .rounded-shape-5{
+        padding: 15px;
+    }
+    .fs-25{
+        font-size: 16px;
+    }
+    .pt-150{
+        padding: 10px;
+    }
+    .para p{
+        font-size: 14px;
+    }
+    .action-button button{
+        margin: 5px ;
+        font-size: 14px;
+        padding: 3px 24px;
+    }
+    .about-head-content span{
+        font-size: 15px;
+        padding: 3px 7px;
+    }
+    .about-content p {
+    
+        font-size: 14px;
+}
+.about-link a{
+    font-size: 15px;
+}
+.impact-head span{
+    font-size: 16px;
+}
+.impact-head{
+    top: -10px;
+}
+.our-impact-content p{
+    font-size: 14px;
+}
+.program-info{
+    font-size: 14px;
+}
+.vision-content p {
+    padding: 30px;
+    font-size: 14px;
+}
+.news-letter p {
+    padding: 0 ;
+    line-height: 1rem;
+}
+.contact .mail {
+    font-size: 14px;
+}
+.signup-form label {
+    font-size: 14px;
+   
+}
+.signup-form input {
+    margin-left: 0;
+    width: 100%;
+    
+}
+.text-r{
+    text-align: center;
+}
+.about-img img {
+ 
+ height: auto;
+}
+.head-1 {
+    font-size: 15px;
+}
+.rounded-shape-1{
+    font-size: 16px;
+    padding: 7px;
+}
+.bg-green img{
+    height: auto;
+}
+.mob-btn{
+    background: #000;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 10px;
+}
 }
