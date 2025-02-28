@@ -3,6 +3,9 @@
     margin:0;
     box-sizing: border-box;
 }
+h3{
+    font-size: 22px;
+}
 .pt-150{
     padding-top: 150px;
 }
@@ -28,8 +31,8 @@
 }
 .menu-head a{
     color: #fff!important;
-    font-size: 18px;
-    margin: 0 10px;
+    font-size: 16px;
+    margin: 0 7px;
 }
 .hero-banner{
     position: relative;
@@ -247,11 +250,13 @@
 .rounded-shape-1 {
     background: #116211;
     color: #fff;
-    padding: 7px 24px;
+    padding: 5px;
     border-radius: 50px;
     border: none;
     font-weight: 600;
-    margin: 0 50px;
+    /* margin: 0 50px; */
+    width: 70%;
+    margin: auto;
     font-size: 22px;
     text-align: center;
 }
@@ -301,7 +306,7 @@ border-radius: 0px 0px 70px 70px;
    border-bottom-left-radius: 30px;
    border-top-left-radius: 30px;
     position: absolute;
-    right: 15px;
+    right: 50px;
     padding: 3px 50px
 }
 .fs-25{
@@ -342,7 +347,7 @@ border-radius: 0px 0px 70px 70px;
     font-weight: 600;
     color: #fff;
     background: #116211;
-    font-size: 25px;
+    font-size: 22px;
     /* position: absolute; */
     top: -25px;
     padding: 3px 70px;
@@ -370,6 +375,9 @@ border-radius: 0px 0px 70px 70px;
 }
 .text-r{
     text-align: right;
+}
+.pad-0{
+    padding: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -496,5 +504,8 @@ border-radius: 0px 0px 70px 70px;
     border-radius: 5px;
     padding: 12px;
     margin: 10px;
+}
+.pad-0{
+    padding: 20px;
 }
 }
