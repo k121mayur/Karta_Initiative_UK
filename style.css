@@ -358,6 +358,11 @@ border-radius: 0px 0px 70px 70px;
     width: 90%;
     margin: auto;
 }
+.blog-hr-line{
+    background: #2eb31c;
+    width: 70%;
+    margin: auto;
+}
 .karta-fund img{
     height: 350px;
 }
