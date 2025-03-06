@@ -1,5 +1,4 @@
 <!doctype html>
-<!doctype html>
 <html lang="en">
 
 <head>
@@ -42,18 +41,37 @@ background-color: #103607;
                 <li class="nav-item menu-head">
                     <a class="nav-link " href="index.html">Home</a>
                 </li>
-                <li class="nav-item menu-head">
-                    <a class="nav-link " href="about.html"> About </a>
+
+                <li class="nav-item dropdown menu-head">
+                    <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+                    <div class="dropdown-menu about-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#trustee">Our Trustees</a>
+                        <a class="dropdown-item" href="#advisor">Our Advisors</a>
+                        <a class="dropdown-item" href="#team">Our Team</a>
+                        <a class="dropdown-item" href="#partner">Our Partners</a>
+                    </div>
                 </li>
                 <li class="nav-item menu-head">
                     <a class="nav-link " href="strategy-plan.html">Strategy Plan</a>
                 </li>
-                <li class="nav-item menu-head">
-                    <a class="nav-link " href="programs.html">What We Do </a>
+                <li class="nav-item dropdown menu-head">
+                    <a class="nav-link dropdown-toggle" href="what-we-do.html" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        What We Do
+                    </a>
+                    <div class="dropdown-menu about-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="why-do-we-exit.html">Why do we exit?</a>
+                        <a class="dropdown-item" href="programs.html">Our Programs</a>
+                        <a class="dropdown-item" href="impact.html">Impact</a>
+
+                    </div>
                 </li>
 
                 <li class="nav-item menu-head">
-                    <a class="nav-link" href="get-involved">Impact </a>
+                    <a class="nav-link" href="get-involved.html">Get Involved </a>
                 </li>
                 <li class="nav-item menu-head">
                     <a class="nav-link " href="blog.html">Blog</a>
@@ -70,7 +88,7 @@ background-color: #103607;
     <div class="container-fluid px-5">
 
         <section>
-            <h2 class="txt-clr-1 font-weight-bold text-center fw-medium">About Us</h2>
+            <h2 class="txt-clr-1 font-weight-bold text-center fw-medium mt-3">About Us</h2>
             <div class="mt-3 about-img">
                 <img src="images/images (9).jpeg" alt="img" width="100%" />
             </div>
@@ -126,7 +144,7 @@ background-color: #103607;
         </section>
 
         <section class="bg-impact pt-4 pb-2" style="background-color: #E9FCFE;">
-            <P>We focus on four key priorities to empower youth:</P>
+            <P>We focus on following key priorities to empower youth:</P>
             <ol style="padding-left: 40px;">
                 <li class="pl-2"> Imparting 21st-century skills to prepare young people for success in education and
                     careers.</li>
@@ -151,12 +169,18 @@ background-color: #103607;
             <div>
                 <h3 class="rounded-shape-1">Our Values</h3>
                 <ul style="list-style-type: disc;padding-left: 40px;" class="my-3">
-                    <li class="pl-2">Compassion: Firm belief in turning empathy into action.</li>
-                    <li class="pl-2">Equity: Committed to fair access for marginalized youth.</li>
-                    <li class="pl-2">Empowerment: Enabling young people to lead and inspire change.</li>
-                    <li class="pl-2">Collaboration: Partnering with organizations and communities for lasting impact.
+                    <li class="pl-2"> <span class="font-w-7"> Compassion : </span> Firm belief in turning empathy into
+                        action.</li>
+                    <li class="pl-2"><span class="font-w-7"> Equity : </span> Committed to fair access for marginalized
+                        youth.</li>
+                    <li class="pl-2"> <span class="font-w-7"> Empowerment : </span> Enabling young people to lead and
+                        inspire change.</li>
+                    <li class="pl-2"> <span class="font-w-7"> Collaboration : </span> Partnering with organizations and
+                        communities for
+                        lasting impact.
                     </li>
-                    <li class="pl-2">Innovation: Leveraging technology to overcome barriers in education and employment.
+                    <li class="pl-2"> <span class="font-w-7"> Innovation : </span> Leveraging technology to overcome
+                        barriers in education and employment.
                     </li>
                 </ul>
             </div>
@@ -166,7 +190,7 @@ background-color: #103607;
         </section>
 
 
-        <div class="container mt-3">
+        <div class="container mt-3 " id="trustee">
 
             <h3 class="text-center py-1 text-white rounded-shape-4 w-100"> Our Trustees<h3></h3>
 
@@ -263,7 +287,7 @@ background-color: #103607;
                             </div>
                             <div class="pl-5">
                                 <h4 class="font-w-7 mt-3">Andrew Nott</h4>
-                                <p class="m-0"> Trustee </p>
+
                                 <ul style="list-style-type:none;">
                                     <li> <span class="font-w-5"> Sectors: </span> Education, NGO, Consultancy, School
                                         Associations, Inspection</li>
@@ -294,7 +318,7 @@ background-color: #103607;
                             </div>
                             <div class="pl-5">
                                 <h4 class="font-w-7 mt-3">Stephen Tall</h4>
-                                <p class="m-0"> Trustee </p>
+
                                 <ul style="list-style-type:none;">
                                     <li> <span class="font-w-5"> Sectors: </span>Over two decades working in education -
                                         spanning early years, school and university - with a focus on fundraising,
@@ -320,93 +344,273 @@ background-color: #103607;
                         </div>
                 </section>
 
-                <section class=" advisor">
 
-                    <h3 class="text-center py-1 text-white rounded-shape-4 w-100">Our Advisors</h3>
-                    <div class="row text-center my-5">
-                        <div class="col-md-4">
-                            <a href="https://www.linkedin.com/in/julie-kilcoyne-22530b24/" target="_blank">
-                                <img src="./images/advisors/Julie Kilcoyne.png" class="profile-img"
-                                    alt="Julie Kilcoyne">
-                            </a>
-                            <h5>Julie Kilcoyne</h5>
-                            <p>EdTech Entrepreneur &amp; Investor</p>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="https://www.linkedin.com/in/david-blake-828a9413/" target="_blank">
-                                <img src="./images/advisors/David Blake.png" class="profile-img" alt="David Blake">
-                            </a>
-                            <h5>David Blake</h5>
-                            <p>EdTech Entrepreneur &amp; Investor</p>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="https://www.linkedin.com/in/arun-kumar-london/" target="_blank">
-                                <img src="./images/advisors/Arun Kumar.jpeg" class="profile-img" alt="Arun Kumar">
-                            </a>
-                            <h5>Arun Kumar</h5>
-                            <p>Strategy and Program Development</p>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-md-6">
-                            <a href="https://www.linkedin.com/in/prataptambe/" target="_blank">
-                                <img src="./images/advisors/Pratap Tambe.jpeg" class="profile-img" alt="Pratap Tambe">
-                            </a>
-                            <h5>Pratap Tambe</h5>
-                            <p>Management Consulting, Business Consulting, Cybersecurity</p>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="https://www.linkedin.com/in/harish-lokhun-13229a39/" target="_blank">
-                                <img src="./images/advisors/Harish Lokhun.jpeg" class="profile-img" alt="Harish Lokhun">
-                            </a>
-                            <h5>Harish Lokhun</h5>
-                            <p>Educational Professional</p>
-                        </div>
-                    </div>
-
-                </section>
 
         </div>
-        <section class="bg-clr-1 py-5 my-3" style="border-radius: 25px;">
 
-            <span class="text-white half-round fs-25 font-w-7">Our Team</span>
-            <div class="row px-5 py-5">
-                <div class="col-md-3">
-                    <img src="./images/team/narendran.png" alt="Narendran T">
+        <div class="container" id="advisor">
+            <section class=" advisor">
+
+                <h3 class="text-center py-1 text-white rounded-shape-4 w-100">Our Advisors</h3>
+                <div class="row text-center my-5">
+                    <div class="col-md-4">
+
+                        <img src="./images/advisors/Julie Kilcoyne.png" class="profile-img" alt="Julie Kilcoyne">
+
+                        <h5 class="mb-1 font-w-7">Julie Kilcoyne</h5>
+                        <p class="mb-1">EdTech Entrepreneur &amp; Investor</p>
+                        <div class="social-media">
+                            <a href="https://www.linkedin.com/in/julie-kilcoyne-22530b24/" target="_blank">
+                                <img src="images/linkedin.png" alt="linkedin" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+
+                        <img src="./images/advisors/David Blake.png" class="profile-img" alt="David Blake">
+
+                        <h5 class="mb-1 font-w-7">David Blake</h5>
+                        <p class="mb-1">EdTech Entrepreneur &amp; Investor</p>
+                        <div class="social-media">
+                            <a href="https://www.linkedin.com/in/david-blake-828a9413/ " target="_blank">
+                                <img src="images/linkedin.png" alt="linkedin" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+
+                        <img src="./images/advisors/Arun Kumar.jpeg" class="profile-img" alt="Arun Kumar">
+
+                        <h5 class="mb-1 font-w-7">Arun Kumar</h5>
+                        <p class="mb-1">Strategy and Program Development</p>
+                        <div class="social-media">
+                            <a href="https://www.linkedin.com/in/arun-kumar-london/ " target="_blank">
+                                <img src="images/linkedin.png" alt="linkedin" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3  pl-3">
-                    <div class="pt-150">
-                        <h5 class="font-weight-bold"> Narendran T</h5>
-                        <p class="fs-15 m-0"> Director of Strategy and Partnerships</p>
-                        <a href="mailto:narendran@karta-initiative.org.uk" style="text-decoration: none;"
-                            class="fs-15 txt-clr-2"> Email:
-                            narendran@karta-initiative.org.uk</a>
+                <div class="row text-center">
+                    <div class="col-md-6">
+
+                        <img src="./images/advisors/Pratap Tambe.jpeg" class="profile-img" alt="Pratap Tambe">
+
+                        <h5 class="mb-1 font-w-7">Pratap Tambe</h5>
+                        <p class="mb-1">Management Consulting, Business Consulting, Cybersecurity</p>
+                        <div class="social-media">
+                            <a href="https://www.linkedin.com/in/prataptambe/" target="_blank">
+                                <img src="images/linkedin.png" alt="linkedin" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                        <img src="./images/advisors/Harish Lokhun.jpeg" class="profile-img" alt="Harish Lokhun">
+
+                        <h5 class="mb-1 font-w-7">Harish Lokhun</h5>
+                        <p class="mb-1">Educational Professional</p>
+                        <div class="social-media">
+                            <a href=" https://www.linkedin.com/in/harish-lokhun-13229a39/" target="_blank">
+                                <img src="images/linkedin.png" alt="linkedin" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <div id="team" class="my-5">
+            <section class="bg-clr-1 py-5 my-3" style="border-radius: 25px;">
+
+                <span class="text-white half-round fs-25 font-w-7">Our Team</span>
+                <div class="row px-5 py-5">
+                    <div class="col-md-3">
+                        <img src="./images/team/narendran.png" alt="Narendran T" width="100%">
+                    </div>
+                    <div class="col-md-3 p-0">
+                        <div class="pt-150 social-logo">
+                            <h5 class="font-weight-bold"> Narendran T</h5>
+                            <p class="fs-15 mb-2"> Director of Strategy and Partnerships</p>
+
+                            <a href="mailto:narendran@karta-initiative.org.uk" style="text-decoration: none;"
+                                class="fs-15 txt-clr-2"><img src="images/envelope.png" alt="email-logo" />
+                            </a>
+
+                            <a href=" https://www.linkedin.com/in/narendrant/ 
+                                " target="_blank"> <img src="images/linkedin.png" alt="linkedin" /></a>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-md-3">
+                        <img src="./images/team/dona.png" alt="Donna" width="100%">
+                    </div>
+                    <div class="col-md-3 p-0">
+                        <div class="pt-150 social-logo">
+                            <h5 class="font-weight-bold"> Donna Seymour</h5>
+                            <p class="fs-15 mb-2"> Charity Secretary</p>
+                            <a href="mailto:donna.seymour@karta-initiative.org.uk" target="_blank"><img
+                                    src="images/envelope.png" alt="email-logo" />
+                            </a>
+
+                            <a href=" https://www.linkedin.com/in/seydonna/ 
+                            " target="_blank"> <img src="images/linkedin.png" alt="linkedin" /></a>
+                        </div>
+
+
                     </div>
 
 
                 </div>
+            </section>
+        </div>
 
-                <div class="col-md-3">
-                    <img src="./images/team/dona.png" alt="Donna">
+        <div id="partner">
+            <section class="bg-impact my-5">
+                <div class="impact-head text-center">
+                    <span>Our Partners</span>
                 </div>
-                <div class="col-md-3 pl-3">
-                    <div class="pt-150">
-                        <h5 class="font-weight-bold"> Donna Seymour</h5>
-                        <p class="fs-15 m-0"> Charity Secretary</p>
-                        <a href="mailto:donna.seymour@karta-initiative.org.uk  " style="text-decoration: none;"
-                            class="fs-15 txt-clr-2"> Email:
-                            donna.seymour@karta-initiative.org.uk  </a>
+                <div class="row justify-content-center py-3">
+                    <div class="col-lg-3">
+                        <div class="bg-green-partner">
+                            <img src="images/partners/Nivethan Trust.png" alt="Nivethan trust" />
+                        </div>
+                        <div class=" py-3 text-center">
+                            <a href="https://nivethan.in/" class="txt-clr-2 fs-15 font-w-5">Nivethan Trust, India</a>
+                        </div>
                     </div>
+                    <div class="col-lg-3">
+                        <div class="bg-green-partner">
+                            <img src="images/partners/Sloane Robinson Foundation.png"
+                                alt="Sloane Robinson Foundation" />
+                        </div>
+                        <div class="text-center py-3">
+                            <a href="#" class="txt-clr-2 fs-15 font-w-5">Sloane Robinson Foundation, UK
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="bg-green-partner">
+                            <img src="" alt="" style="background: #fff;">
+                        </div>
+                        <div class=" py-3 text-center">
+                            <a href="https://www.karta-initiative.org/" class="txt-clr-2 fs-15 font-w-5">Karta
+                                Initiative
+                                India Foundation, India</a>
 
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="bg-green-partner">
+                            <img src="" alt="" />
+                        </div>
+                        <div class=" py-3 text-center">
+                            <a href="http://www.vidya.org.uk/" class="txt-clr-2 fs-15 font-w-5">The Vidya Trust, UK</a>
 
+                        </div>
+                    </div>
                 </div>
 
+
+            </section>
+        </div>
+
+
+        <!-- contact section-->
+        <section class="my-2">
+            <div class="contact-sec">
+                <div class="row justify-content-around">
+                    <div class="col-lg-5">
+                        <h4 class="contact-details mb-3">Contact</h4>
+                        <div class="contact">
+                            <h5>The Karta Initiative
+                            </h5>
+                            <p>CIO Registered Charity Number: 1173020
+                                <br>
+                                Registered Office: 30 ST. GILES, OXFORD, OX1 3LE,
+                                <br>
+                                England, United Kingdom
+                            </p>
+                            <p class="mail"> Email : <a href="emailto:hello@karta-initiative.org.uk"
+                                    style="font-weight: 400;color: #fff;">hello@karta-initiative.org.uk</a></p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2">
+                        <h4 class="mb-3">Quick Links</h4>
+                        <ul>
+                            <li>About Karta Initiative </li>
+                            <li>Our Programs </li>
+                            <li>Our Trustees </li>
+                            <li>Our Impact</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 signup-form">
+                        <h4 class="signup-details mb-3">Subscribe to our Newsletter</h4>
+                        <form class="pad-rl-50">
+                            <div class="form-group row ">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Name:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputPassword3" class="col-sm-2 col-form-label">Organisation Name:
+                                </label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="Email">
+                                </div>
+                            </div>
+
+
+                            <div class="form-group row text-r">
+                                <div class="col-sm-12 action-button">
+                                    <button type="submit" style="color:#000;background: #d9d9d9;">Subscribe Now
+                                        →</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
 
             </div>
+            <div class="follow-us mt-3">
+
+                <h3 class="text-center">Follow us</h3>
+                <div class="social-media text-center my-2">
+                    <a href=" https://www.facebook.com/KartaUK" target="_blank"><img
+                            src="images/facebook-app-symbol.png" alt="facebook" /></a>
+                    <a href="https://www.instagram.com/kartainitiativeuk/ " target="_blank"><img
+                            src="images/instagram.png" alt="insta" /></a>
+                    <a href=" https://www.linkedin.com/company/kartainitiative-uk/ " target="_blank"><img
+                            src="images/linkedin.png" alt="linkedin" /></a>
+                    <a href="https://twitter.com/KartaUK" target="_blank"><img src="images/twitter.png"
+                            alt="twitter" /></a>
+                </div>
+            </div>
+
+
+            <div class="footer">
+                <p class="text-center mb-0 fs-15">
+                    © The Karta Initiative | 2025
+                </p>
+                <p class="text-center font-fam fs-15 mb-0">Site Developed By <a href=" https://www.siliconmango.com/"
+                        style="color: #024383;text-decoration: none;
+            
+                    font-weight: 600;"> Silicon Mango</a></p>
+
+            </div>
+
         </section>
-
-
-
 
 
 
