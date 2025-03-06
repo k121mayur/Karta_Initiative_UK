@@ -95,7 +95,7 @@ h3{
     margin: 0 50px;
     
 }
-.about-head-content span{
+.about-head-content h3{
     background: #116211;
     width: 70%;
     font-size: 20px;
@@ -378,6 +378,13 @@ height: 170px;
 .trustee ul li{
     font-size: 15px;
 }
+.trustee-desc{
+    display: flex;
+    gap: 15px;
+}
+.trustee-desc a{
+    padding-top: 15px;
+}
 .advisor .profile-img{
     
         width: 150px;
@@ -463,6 +470,18 @@ height: 170px;
     color: #fff;
     font-size: 15px;
 }
+.pop-up{
+    text-align: center;
+    background: yellowgreen;
+    /* margin: 10%; */
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 150px 50px;
+    border-radius: 10px;
+    height: 200px;
+    box-shadow: 0 0 0 2px #f1f1f1;
+}
 
 @media only screen and (max-width: 600px) {
     h2{
@@ -523,9 +542,11 @@ height: 170px;
         font-size: 14px;
         padding: 3px 24px;
     }
-    .about-head-content span{
+    .about-head-content h3{
+        width: 100%;
         font-size: 15px;
         padding: 3px 7px;
+        text-align: center;
     }
     .about-content p {
     
@@ -602,5 +623,8 @@ height: 170px;
 }
 .text-r{
     text-align: center;
+}
+.trustee-desc a {
+    padding-top: 10px;
 }
 }
