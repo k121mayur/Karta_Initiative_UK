@@ -20,18 +20,18 @@
 <body>
 
     <!-- nav bar-->
-    <nav class="navbar navbar-dark navbar-expand-lg bg-clr p-0">
-        <a class="navbar-brand d-flex align-items-center" href="#">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-clr fixed-top p-0">
+        <a class="navbar-brand d-flex align-items-center bg-clr" href="#">
             <img src="images/KARTA LOGO new logo final 2.png" alt="Logo" class="logo-h" />
 
         </a>
-        <!-- <button class="navbar-toggler mob-btn" type="button" data-toggle="collapse" data-target="#navbarNav"
+        <!-- <button class="navbar-toggler navbar-dark mob-btn" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icons"></span>
         </button> -->
         <button class="navbar-toggler collapsed p-1 m-1" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation" style="
-    background-color: #103607;
+background-color: #103607;
 ">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,21 +40,41 @@
                 <li class="nav-item menu-head">
                     <a class="nav-link " href="index.html">Home</a>
                 </li>
-                <li class="nav-item menu-head">
-                    <a class="nav-link " href="about.html"> About </a>
-                </li>
-                <li class="nav-item menu-head">
-                    <a class="nav-link " href="strategy-plan.html">Strategy Plan</a>
-                </li>
-                <li class="nav-item menu-head">
-                    <a class="nav-link " href="programs.html">What We Do </a>
+
+                <li class="nav-item dropdown menu-head">
+                    <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+                    <div class="dropdown-menu about-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="overview.html">Overview</a>
+                        <a class="dropdown-item" href="strategy-plan.html">Strategy Plan(2024 to 2030)</a>
+                        <a class="dropdown-item" href="trustee.html">Our Trustees</a>
+                        <a class="dropdown-item" href="advisor.html">Our Advisors</a>
+                        <a class="dropdown-item" href="team.html">Our Team</a>
+                        <a class="dropdown-item" href="partner.html">Our Partners</a>
+                    </div>
                 </li>
 
-                <li class="nav-item menu-head">
-                    <a class="nav-link" href="impact.html">Impact </a>
+                <li class="nav-item dropdown menu-head">
+                    <a class="nav-link dropdown-toggle" href="what-we-do.html" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        What We Do
+                    </a>
+                    <div class="dropdown-menu about-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="why-do-we-exit.html">Why Do We Exist?</a>
+                        <a class="dropdown-item" href="programs.html">Our Programs</a>
+                        <a class="dropdown-item" href="impact.html">Impact</a>
+
+                    </div>
                 </li>
+
+
                 <li class="nav-item menu-head">
                     <a class="nav-link " href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item menu-head">
+                    <a class="nav-link" href="get-involved.html">Get Involved </a>
                 </li>
                 <li class="nav-item menu-head">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -63,7 +83,6 @@
             </ul>
         </div>
     </nav>
-
     <!-- hero section-->
 
     <!-- Program section-->
@@ -80,19 +99,22 @@
                 <h4 class="txt-clr-2 text-center my-4">Karta’s Latest Newsletter
                 </h4>
 
-                <p class="txt-clr-2 pb-2">Check out the latest updates from Karta Initiative in our new newsletter!
+                <p class="txt-clr-2 mb-0">Check out the latest updates from Karta Initiative in our new newsletter!
                     Learn how
                     we’re supporting young people from marginalized communities with education, skills, and mentorship.
                     The newsletter shares stories from our scholars, highlights from our programs, and our plans to make
                     a bigger impact.
                 </p>
+                <a href="https://mailchi.mp/14a079b396e5/4qyhvfhy77 " style="text-decoration:underline;">Read More Here
+                    → </a>
+
                 <!-- <p><span> Keywords:</span> Karta Initiative Newsletter, empowering marginalized youth, education
                     opportunities,
                     21st-century skills, youth mentorship programs, scholar success stories, program highlights, Global
                     South education, community transformation, Karta updates, youth empowerment, career guidance, making
                     an impact, educational equality.</p> -->
             </div>
-            <hr class="blog-hr-line">
+            <hr class="blog-hr-line my-4">
 
             <div>
                 <h4 class="txt-clr-2 text-center my-3">Partnering with The Vidya Trust to Empower Rural Youth
