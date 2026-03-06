@@ -394,6 +394,15 @@ height: 170px;
 .trustee .profile-img{
     text-align: center;
 }
+.trustee .profile-img img{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.trustee .col-lg-6{
+    margin-bottom: 30px;
+}
 .trustee ul li{
     font-size: 15px;
 }
